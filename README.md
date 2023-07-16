@@ -14,16 +14,20 @@ This repository contains the source code for the **LCD Digital Clock** developme
 
 
 
-TODO
+## Architecture
+
+### Communication Interfaces
 
 
 
-## Development Environment
-
-TODO
+<img src="./img/lcd-digital-clock-communication-interfaces.png" alt="lcd-digital-clock-communication-interfaces" width="750">
 
 
 
-## Requirements
+### Software Layers
 
-TODO
+
+
+<img src="./img/lcd-digital-clock-software-layers.png" alt="lcd-digital-clock-software-layers" width="850">
+
+
