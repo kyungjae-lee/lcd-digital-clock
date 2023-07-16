@@ -6,6 +6,12 @@ This repository contains the source code for the **LCD Digital Clock** developme
 
 
 
+<img src="./img/lcd-digital-clock-thumbnail.png" alt="lcd-digital-clock-thumbnail" width="650">
+
+
+
+
+
 ## Introduction
 
 TODO
