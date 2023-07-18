@@ -2,7 +2,7 @@
  * File		: stm32f407xx_i2c_driver.c
  * Brief	: STM32F407xx MCU specific I2C driver source file
  * Author	; Kyungjae Lee
- * Date		: Jul 17, 2023
+ * Date		: Jun 09, 2023
  * ****************************************************************************/
 
 #include "stm32f407xx.h"

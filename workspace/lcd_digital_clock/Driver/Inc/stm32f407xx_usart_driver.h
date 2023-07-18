@@ -2,7 +2,7 @@
  * File		: stm32f407xx_usart_driver.h
  * Brief	: STM32F407xx MCU specific USART driver header file
  * Author	; Kyungjae Lee
- * Date		: Jul 17, 2023
+ * Date		: Jun 20, 2023
  * ****************************************************************************/
 
 #ifndef STM32F407XX_USART_DRIVER_H

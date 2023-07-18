@@ -2,7 +2,7 @@
  * File		: stm32f407xx_spi_driver.h
  * Brief	: STM32F407xx MCU specific SPI driver header file
  * Author	; Kyungjae Lee
- * Date		: Jul 17, 2023
+ * Date		: May 21, 2023
  * ****************************************************************************/
 
 #ifndef STM32F407XX_SPI_DRIVER_H
