@@ -23,6 +23,13 @@ This repository contains the source code for the **LCD Digital Clock** developme
 
 
 
+## Development Environment
+
+* Operating system: Ubuntu 22.04 LTS
+* Integrated Development Environment (IDE): STM32 CubeIDE Version 1.10.1
+
+
+
 ## Architecture
 
 ### Communication Interfaces
