@@ -8,7 +8,7 @@ This repository contains the source code for the **LCD Digital Clock** developme
 
 ## Introduction
 
-* Developed all software layers (HW abstraction layer, BSP layer, application layer, application layer) from scratch to implement an LCD Digital Clock
+* Developed all software layers (HW abstraction layer, BSP layer, application layer) from scratch to implement an LCD Digital Clock
   * The hardware abstraction layer provides the BSP layer with the APIs to control the MCU peripherals such as GPIO, I2C and USART.
   * The BSP layer provides the application layer with the APIs to control the Tiny RTC Module (DS1307) and the 16x2 Character LCD Module (HD44780U).
   * The application layer implements the logic to read the current time and data information from the RTC module and display it on the LCD by using the APIs provided by the underlying software layers.
