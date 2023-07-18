@@ -60,6 +60,6 @@ This repository contains the source code for the **LCD Digital Clock** developme
   * USART driver: [stm32f407xx_usart_driver.h](./workspace/lcd_digital_clock/Driver/Inc/stm32f407xx_usart_driver.h),  [stm32f407xx_usart_driver.c](./workspace/lcd_digital_clock/Driver/Src/stm32f407xx_usart_driver.c)
 * BSP layer
   * RTC: [rtc_ds1307.h](./workspace/lcd_digital_clock/Bsp/Inc/rtc_ds1307.h), [rtc_ds1307.c](./workspace/lcd_digital_clock/Bsp/Src/rtc_ds1307.c)
-  * LCD: [lcd_hd44780u.h](./workspace/lcd_digital_clock/Bsp/Inc/lcd_hd44780u.h), [rtc_ds1307.c](./workspace/lcd_digital_clock/Bsp/Src/rtc_ds1307.c)
+  * LCD: [lcd_hd44780u.h](./workspace/lcd_digital_clock/Bsp/Inc/lcd_hd44780u.h), [lcd_hd44780u.c](./workspace/lcd_digital_clock/Bsp/Src/rtc_ds1307.c)
 * Application layer
   * LCD digital clock: [lcd_digital_clock.c](./workspace/lcd_digital_clock/Src/lcd_digital_clock.c)
