@@ -1,5 +1,5 @@
 /*******************************************************************************
- * File		: main.c
+ * File		: lcd_digital_clock.c
  * Brief	: Application to read time and date information from the Tiny RTC
  * 			  Module (DS1307) and display it on the 16x2 Character LCD (HD4478U)
  * Author	; Kyungjae Lee
