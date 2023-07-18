@@ -47,10 +47,10 @@ This repository contains the source code for the **LCD Digital Clock** developme
 
 * Hardware abstraction layer
   * Device header: [stm32f407xx.h](./workspace/lcd_digital_clock/Driver/Inc/stm32f407xx.h)
-  * GPIO driver: [stm32f407xx_gpio.h](./workspace/lcd_digital_clock/Driver/Inc/stm32f407xx_gpio_driver.h),  [stm32f407xx_gpio.c](./workspace/lcd_digital_clock/Driver/Src/stm32f407xx_gpio_driver.c)
-  * SPI driver: [stm32f407xx_spi.h](./workspace/lcd_digital_clock/Driver/Inc/stm32f407xx_spi_driver.h),  [stm32f407xx_spi.c](./workspace/lcd_digital_clock/Driver/Src/stm32f407xx_spi_driver.c)
-  * I2C driver: [stm32f407xx_i2c.h](./workspace/lcd_digital_clock/Driver/Inc/stm32f407xx_i2c_driver.h),  [stm32f407xx_i2c.c](./workspace/lcd_digital_clock/Driver/Src/stm32f407xx_i2c_driver.c)
-  * USART driver: [stm32f407xx_usart.h](./workspace/lcd_digital_clock/Driver/Inc/stm32f407xx_usart_driver.h),  [stm32f407xx_usart.c](./workspace/lcd_digital_clock/Driver/Src/stm32f407xx_usart_driver.c)
+  * GPIO driver: [stm32f407xx_gpio_driver.h](./workspace/lcd_digital_clock/Driver/Inc/stm32f407xx_gpio_driver.h),  [stm32f407xx_gpio_driver.c](./workspace/lcd_digital_clock/Driver/Src/stm32f407xx_gpio_driver.c)
+  * SPI driver: [stm32f407xx_spi_driver.h](./workspace/lcd_digital_clock/Driver/Inc/stm32f407xx_spi_driver.h),  [stm32f407xx_spi_driver.c](./workspace/lcd_digital_clock/Driver/Src/stm32f407xx_spi_driver.c)
+  * I2C driver: [stm32f407xx_i2c_driver.h](./workspace/lcd_digital_clock/Driver/Inc/stm32f407xx_i2c_driver.h),  [stm32f407xx_i2c_driver.c](./workspace/lcd_digital_clock/Driver/Src/stm32f407xx_i2c_driver.c)
+  * USART driver: [stm32f407xx_usart_driver.h](./workspace/lcd_digital_clock/Driver/Inc/stm32f407xx_usart_driver.h),  [stm32f407xx_usart_driver.c](./workspace/lcd_digital_clock/Driver/Src/stm32f407xx_usart_driver.c)
 * BSP layer
   * RTC: [rtc_ds1307.h](./workspace/lcd_digital_clock/Bsp/Inc/rtc_ds1307.h), [rtc_ds1307.c](./workspace/lcd_digital_clock/Bsp/Src/rtc_ds1307.c)
   * LCD: [lcd_hd44780u.h](./workspace/lcd_digital_clock/Bsp/Inc/lcd_hd44780u.h), [rtc_ds1307.c](./workspace/lcd_digital_clock/Bsp/Src/rtc_ds1307.c)
