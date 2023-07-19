@@ -49,7 +49,7 @@ Demonstration video: [https://youtu.be/3YQeoxAJBNw](https://youtu.be/3YQeoxAJBNw
 
 
 
-<img src="img/lcd-digital-clock-wiring-1689728055482-1.png" alt="lcd-digital-clock-wiring" width="800">
+<img src="img/lcd-digital-clock-wiring.png" alt="lcd-digital-clock-wiring" width="800">
 
 
 
