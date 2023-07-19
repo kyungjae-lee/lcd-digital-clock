@@ -8,18 +8,15 @@ This repository contains the source code for the **LCD Digital Clock** developme
 
 ## Introduction
 
+* LCD digital clock development using the **Tiny RTC Module (DS1307)** and  the **16x2 Character LCD (HD44780U)** interfacing with the  **STM32F407-Discovery board**    
+* Developed an application to read time and date information from the RTC module and display it on the LCD
 * Developed all software layers (HW abstraction layer, BSP layer, application layer) from scratch to implement an LCD Digital Clock
-  * The hardware abstraction layer provides the BSP layer with the APIs to control the MCU peripherals such as GPIO, I2C and USART.
-  * The BSP layer provides the application layer with the APIs to control the Tiny RTC Module (DS1307) and the 16x2 Character LCD Module (HD44780U).
-  * The application layer implements the logic to read the current time and data information from the RTC module and display it on the LCD by using the APIs provided by the underlying software layers.
-
-* Demonstration video: [https://youtu.be/3YQeoxAJBNw](https://youtu.be/3YQeoxAJBNw)
 
 
 
-<img src="./img/lcd-digital-clock-thumbnail.png" alt="lcd-digital-clock-thumbnail" width="750">
+## Demonstration
 
-
+Demonstration video: [https://youtu.be/3YQeoxAJBNw](https://youtu.be/3YQeoxAJBNw)
 
 
 
@@ -32,11 +29,27 @@ This repository contains the source code for the **LCD Digital Clock** developme
 
 ## Architecture
 
+### Hardware Components
+
+
+
+<img src="img/lcd-digital-clock-hardware-components.png" alt="lcd-digital-clock-hardware-components" width="750">
+
+
+
 ### Communication Interfaces
 
 
 
 <img src="./img/lcd-digital-clock-communication-interfaces.png" alt="lcd-digital-clock-communication-interfaces" width="750">
+
+
+
+### Wiring
+
+
+
+<img src="img/lcd-digital-clock-wiring-1689728055482-1.png" alt="lcd-digital-clock-wiring" width="800">
 
 
 
@@ -47,6 +60,10 @@ This repository contains the source code for the **LCD Digital Clock** developme
 <img src="./img/lcd-digital-clock-software-layers.png" alt="lcd-digital-clock-software-layers" width="850">
 
 
+
+* **Application layer** implements the logic to read the current time and data information from the RTC module and display it on the LCD by using the APIs provided by the underlying software layers.
+* **BSP layer** provides the application layer with the APIs to control the Tiny RTC Module (DS1307) and the 16x2 Character LCD Module (HD44780U).
+* **Hardware abstraction layer** provides the BSP layer with the APIs to control the MCU peripherals such as GPIO, I2C and USART.
 
 
 
