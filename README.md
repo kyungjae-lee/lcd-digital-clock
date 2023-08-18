@@ -2,7 +2,7 @@
 
 
 
-This repository contains the source code for the **LCD Digital Clock** development project. Visit the "LCD Digital Clock" section on my website for more details: https://kyungjae.dev/projects/lcd-digital-clock.
+This repository contains the source code for the **LCD Digital Clock** development project. Visit the "LCD Digital Clock" section on my website for more details: https://jackklee.com/projects/lcd-digital-clock.
 
 
 
